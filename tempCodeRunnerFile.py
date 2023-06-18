@@ -1,15 +1,7 @@
-def message_creator(text):
-   # Escribe tu solución 👇
-   if text == 'computadora':
-      print('Con mi computadora puedo programar usando Python')
-   elif text == 'celular':
-      print('En mi celular puedo aprender usando la app de Platzi')
-   elif text == 'cable':
-      print('¡Hay un cable en mi bota!')
-   else:
-      print("Artículo no encontrado")
-   return ''
+def series_resistance(lst):
+	count = 0
+	for i in range (len(lst) - 1):
+		count = count + list[i]
+	return print(count, " ohms")
 
-text = 'celular'
-response = message_creator(text)
-print(response)
+series_resistance([1, 5, 6, 3])
