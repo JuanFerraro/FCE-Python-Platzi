@@ -3,6 +3,7 @@
 set_countries = {'Col', 'Mex', 'Arg', 'Esp'}
 print(set_countries)
 print(type(set_countries))
+print(len(set_countries))
 
 set_numbers = {1, 2, 3, 4, 5, 6}
 print(set_numbers)
