@@ -10,5 +10,4 @@ my_print('Test text')
 def suma(a, b):
     print('Resultado: ', a + b)
 
-
 suma(15, 7)
